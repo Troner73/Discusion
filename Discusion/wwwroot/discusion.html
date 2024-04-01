@@ -12,12 +12,12 @@
 
     <label id="label"></label>
     <script>
-        document.getElementById("boton"); /* esto concatena nombre y apellido */
+        let boton = document.getElementById("boton"); /* esto concatena nombre y apellido */
         boton.addEventListener("click", function () {
             let text1 = document.getElementById("nombre").value;
             let text2 = document.getElementById("apellido").value;
 
-            document.getElementById("label")
+            let label = document.getElementById("label")
             label.innerHTML = text1 + " " + text2;
 
 
