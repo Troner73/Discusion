@@ -7,8 +7,24 @@
 <body>
     <input type="text" id="nombre" />
     <input type="text" id="apellido" />
-    <input type="button"  id="boton"/>
+
+    <input type="button" value="enviar" id="boton" />
+
+    <label id="label"></label>
+    <script>
+        document.getElementById("boton"); /* esto concatena nombre y apellido */
+        boton.addEventListener("click", function () {
+            let text1 = document.getElementById("nombre").value;
+            let text2 = document.getElementById("apellido").value;
+
+            document.getElementById("label")
+            label.innerHTML = text1 + " " + text2;
 
 
+
+
+        });
+
+    </script>
 </body>
 </html>
